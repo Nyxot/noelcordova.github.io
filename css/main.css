@@ -1,0 +1,21 @@
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.mainContent {
+  /* Positioning */
+  top: 0;
+  /* Box-model */
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  /* Typography */
+  /* Visual */
+  background-image: url(../assets/image.jpg);
+  background-size: cover;
+  display: table;
+  /* Misc */
+}
