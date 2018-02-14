@@ -16,7 +16,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: crimson;
+  background-color: #ff3d3d;
 }
 
 .navbar,
@@ -43,13 +43,34 @@ body {
   background-color: #262626;
 }
 
-.mainContent {
-  padding-top: 150px;
-  font-family: 'Hind';
+.googleForm {
+  margin-top: 125px;
 }
 
-@media (max-width: 480px) {
-  .mainContent {
-    padding-top: 0px;
+@media (max-width: 576px) {
+  .googleForm {
+    margin-top: 10px;
   }
+}
+
+.googleForm,
+.form-control:focus,
+.form-control:active,
+.form-control:hover {
+  border-color: greenyellow;
+}
+
+.shortcuts {
+  margin-top: 60px;
+}
+
+@media (max-width: 576px){
+  .shortcuts{
+    margin-top: 10px;
+  }
+}
+
+.shortcuts,
+.icons {
+  border: 1px solid black;
 }
