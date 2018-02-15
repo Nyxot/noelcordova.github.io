@@ -9,68 +9,51 @@
   - Misc
 
 */
-@import url('https://fonts.googleapis.com/css?family=Anton');
-@import url('https://fonts.googleapis.com/css?family=Hind');
+@import url('https://fonts.googleapis.com/css?family=Play');
 
 html,
 body {
   width: 100%;
   height: 100%;
-  background-color: #ff3d3d;
+  font-family: 'Play';
+  background-color: #141111;
 }
 
-.navbar,
-.navbar-expand-md {
-  font-family: 'Hind';
-  color: white;
-  background-color: #262626;
+.form-group {
+  margin-top: 17px;
 }
 
-.navbar-brand {
-  font-family: 'Anton';
+.text {
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #d800ff;
+  text-align: right;
 }
 
-.dropdown-menu,
-.dropdown-menu.show {
-  background-color: #262626;
+@media (max-width: 550px){
+  .text {
+    text-align: center;
+  }
+}
+
+.form-control,
+.form-control-sm {
   border: 0px;
+  background-color: transparent;
+  color: #A5A4A5;
 }
 
-.dropdown-item,
-.dropdown-item:hover {
-  font-family: 'Hind';
-  color: white;
-  background-color: #262626;
+.form-control:focus {
+  box-shadow: 0 0 0 0;
+  background-color: transparent;
+  border-bottom: 1px solid;
+  border-color: #2ebcff;
+  color: #A5A4A5;
 }
 
-.googleForm {
-  margin-top: 125px;
-}
-
-@media (max-width: 576px) {
-  .googleForm {
-    margin-top: 10px;
-  }
-}
-
-.googleForm,
-.form-control:focus,
-.form-control:active,
 .form-control:hover {
-  border-color: greenyellow;
-}
-
-.shortcuts {
-  margin-top: 60px;
-}
-
-@media (max-width: 576px){
-  .shortcuts{
-    margin-top: 10px;
-  }
-}
-
-.shortcuts,
-.icons {
-  border: 1px solid black;
+  /*background-color: transparent;*/
+  border-bottom: 1px solid;
+  border-color: #2ebcff;
 }
