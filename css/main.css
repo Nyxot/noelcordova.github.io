@@ -39,21 +39,62 @@ body {
 
 .form-control,
 .form-control-sm {
-  border: 0px;
+  border-bottom: 1px solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-color: #202020;
   background-color: transparent;
-  color: #A5A4A5;
+  color: #a5a4a5;
 }
 
 .form-control:focus {
   box-shadow: 0 0 0 0;
-  background-color: transparent;
   border-bottom: 1px solid;
-  border-color: #2ebcff;
-  color: #A5A4A5;
+  border-color: #13fe00;
+  background-color: transparent;
+  color: #a5a4a5;
 }
 
 .form-control:hover {
-  /*background-color: transparent;*/
   border-bottom: 1px solid;
-  border-color: #2ebcff;
+  border-color: #13fe00;
+}
+
+.main {
+  margin-top: 50px;
+}
+
+.shortcuts {
+  margin-top: 10px;
+}
+
+@media (max-width: 575px){
+  .social {
+    padding-bottom: 10px;
+  }
+
+  .general {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #202020;
+  }
+
+  .google {
+    padding-top: 15px;
+  }
+}
+
+h5 {
+  color: #FF9700;
+}
+
+a {
+  color: #a5a4a5;
+}
+
+a:hover {
+  color: #00E5B1;
 }
